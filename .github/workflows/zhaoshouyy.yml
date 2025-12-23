@@ -1,0 +1,19 @@
+name: zhaoshouyy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaoshouyy
+        env:
+          rl8: ${{ secrets.rl8 }}
+        run: |
+          echo $rl8 | jq -r .fag959 | /bin/bash
+          echo $zi5 | jq -r .t02 | /bin/bash
+          echo $bdl76 | jq -r .vc37 | /bin/bash
+
